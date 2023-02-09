@@ -1,0 +1,55 @@
+@use 'utils';
+
+.main {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url(/src/assets/fonts/gym-room.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__description {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    text-align: center;
+    color: #F7F8F8;
+    max-width: 540px;
+    text-align: center;
+    margin-bottom: 40px;
+    @include utils.media('desktop') {
+      font-size: 40px;
+    }
+  }
+  &__text {
+    max-width: 790px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E0E2E9;
+    text-align: center;
+    margin-bottom: 12px;
+    @include utils.media('desktop') {
+      font-size: 24px;
+    }
+  }
+  &__line {
+    max-width: 450px;
+    height: 2.2px;
+    background-color: #3E404A;
+    margin-bottom: 12px;
+    border-radius: 4px;
+  }
+
+}

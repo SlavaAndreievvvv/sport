@@ -2,17 +2,132 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./scss/style.scss" />
-    <title>Parcel by Merge</title>
+    <title>Trainning</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container index-page">
-      <h1 class="title index-page__title">Parcel by Merge</h1>
-      <a href="https://merge.rocks" target="_blank" class="cover">
-        <img src="./assets/images/cover.png" alt="merge" />
-      </a>
-    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <main class="main container">
+      <div class="main__description">
+        <h1 class="main__title">
+          Тренер з боксу, кікбоксингу ‌та фізичної підготовки Андрєєв Вячеслав
+        </h1>
+        <span class="main__line"></span>
+        <p class="main__text" data-aos="fade-up">
+          Привіт, друзі! Мене звати Вячеслав і я тренер з боксу, кікбоксингу та
+          фізичної підготовки. Спортом займаюся протягом 9 років, тренерською
+          діяльністю – 3 роки.
+        </p>
+        <p class="main__text" data-aos="fade-up" data-aos-duration="600">
+          Маю звання Заслуженного майстра спорту України
+        </p>
+        <p class="main__text" data-aos="fade-up" data-aos-duration="900">
+          Дворазовий чемпіон Світу з кікбоксингу за версією ISKA
+        </p>
+      </div>
+    </main>
+    <section class="section-about container">
+      <p class="section-about__caption caption">
+        Чому варто займатися зі мною?
+      </p>
+      <p
+        class="title section-about__title"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        Бокс та кікбоксинг
+      </p>
+      <div class="section-about__block block">
+        <img
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          class="block__img"
+          src="/src/assets/fonts/boxing.jpg"
+          alt="boxing"
+        />
+        <div class="block__wrapper">
+          <p class="block__text" data-aos="fade-left">
+            Поліпшимо фізичну форму та схуднемо
+          </p>
+          <p class="block__text" data-aos="fade-left" data-aos-duration="500">
+            Розвинемо почуття дистанції та таймінг
+          </p>
+          <p class="block__text" data-aos="fade-left" data-aos-duration="600">
+            Значно урізноманітнемо свою ударну техніку
+          </p>
+          <p class="block__text">
+            Вивчимо справді працюючі нокаутуючі комбінації від найкращих бійців
+            світу
+          </p>
+          <p class="block__text" data-aos="fade-left" data-aos-duration="700">
+            Опануємо тренувальні хитрощі іменитих чемпіонів та дізнаємося
+            незвичайні ефективні вправи
+          </p>
+          <p class="block__text" data-aos="fade-left" data-aos-duration="800">
+            Подолаємо тренувальний застій та вийдемо на новий рівень. Прогрес,
+            за бажанням, будемо класно знімати та монтувати у відео для наших
+            Інстаграм сторінок
+          </p>
+        </div>
+      </div>
+      <p class="title section-about__title">Функціональне тренування</p>
+      <div
+        class="section-about__block block block--reverse section-about__block--revese"
+      >
+        <img
+          data-aos="fade-up-left"
+          data-aos-duration="1000"
+          class="block__img"
+          src="/src/assets/fonts/group-training.jpg"
+          alt="boxing"
+        />
+        <div class="block__wrapper block__wrapper--reverse">
+          <p class="block__text">
+            Цей вид фізичного навантаження розвиває не тільки витривалість і
+            силу, але і спритність, і навіть грацію
+          </p>
+          <p class="block__text">
+            формують почуття рівноваги, гнучкість, отже, дають можливість
+            впевнено рухатися і володіти свої тілом в будь-яких ситуаціях
+          </p>
+          <p class="block__text">
+            Функціональний тренінг націлений на зміцнення так званих глибоко
+            залягаючих м’язів-стабілізаторів, які дозволяють легко утримати тіло
+            в будь-яких положеннях
+          </p>
+          <p class="block__text">
+            Функціональні тренування об’єднують безліч напрямків фітнесу:
+            стретчинг, круговий тренінг, пілатес та інші. Снарядами для
+            функціональних вправ може бути що завгодно – гімнастичні кільця,
+            скакалка, гімнастичний м’яч, штанга, степ-платформа
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-video container">
+      <p class="title section-video__title">
+        Як виглядає функціональне тренування
+      </p>
+      <video
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        src="/src/assets/fonts/y2mate.com - TABATA FULL BODY LEVEL INTERMIDIATE_1080p.mp4"
+        width="800"
+        height="800"
+        loop
+        muted
+        playsinline
+        uk-video="autoplay: inview"
+      ></video>
+    </section>
     <script type="module" src="./index.js"></script>
   </body>
 </html>

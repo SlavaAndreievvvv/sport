@@ -1,0 +1,12 @@
+@use 'utils';
+
+.caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #F7F8F8;
+  @include utils.media('desktop') {
+    font-size: 34px;
+  }
+}
